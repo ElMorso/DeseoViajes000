@@ -1,0 +1,74 @@
+// const nombre= document.getElementById("inputNombre").value;
+// const apellido= document.getElementById("inputApellido").value;
+// const formulario= document.getElementById("formulario");
+// const contenedor= document.getElementById("contenedor");
+
+// formulario.addEventListener('submit', (e) => {
+//     e.preventDefault();
+// })
+
+
+// const saludar = document.getElementById ("respuesta");
+// respuesta.textContent = "Bienvenidx" ${}
+
+
+// function saludar () {
+//     console.log("Bienvenidx" + " " + IngresarNombre)
+// }
+
+// saludar() ;
+
+
+
+//     let ingresarDestinoDeViaje = prompt("Ingresa el continente al que sueñas con viajar"); 
+//     while(ingresarDestinoDeViaje)
+//     {
+//         if(ingresarDestinoDeViaje==="América del Sur"||ingresarDestinoDeViaje==="América del Norte"||ingresarDestinoDeViaje==="África"||ingresarDestinoDeViaje==="Asia"||ingresarDestinoDeViaje==="Oceania"||ingresarDestinoDeViaje==="Europa")
+//         {
+//             console.log("Tu destino elegido es"+" "+ingresarDestinoDeViaje);
+//             break;
+//             }
+//             else
+//             ingresarDestinoDeViaje=prompt("Ese nombre no pertenece a ningún continente o no está escrito de manera correcta, ingresalo correctamente")
+//             }
+
+
+
+
+
+
+// let años = prompt("Ingresa tu edad para buscar puntos de interés en tu destino")
+
+// let presupuesto = prompt("Ingresa presupuesto en dólares del alojamiento para tu viaje")
+
+// function Datos(nombre,edad,destino){
+//     nombre = IngresarNombre;
+//     edad = años;
+//     destino = ingresarDestinoDeViaje;
+// }
+
+// console.log("Usted ha ingresado"+ " "+ Datos.length + " " + "datos")
+
+// console.log("Datos iniciales ingresados correctamente")
+
+// let tiempo = prompt("¿Cuántos días durará tu viaje?")
+// let lugar  = prompt("¿Deseas hospedarte en un gran centro poblado o alejado de las grandes ciudades?")
+// let recorrido = prompt("¿Deseas visitar lugares históricos o visitar las nuevas atracciones?") 
+
+// console.log("DATOS DE ALOJAMIENTO:")
+
+// const Array1 = [tiempo,lugar,recorrido]
+// for (let i=0; i<3; i ++){
+//     console.log(Array1[i]);
+// }
+
+
+// console.log("Procesando datos")
+
+// console.log("Datos procesados")
+
+// prompt("Ingresar correo electrónico para enviar información adicional de paquetes y precios")
+
+// console.warn("Se ennvió la información a su dirección de correo electrónico, gracias por utilizar Deseo Viajes :D")
+
+// alert ("Gracias por utilizar Deseo Viajes")

@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    height: 130vh;
+    background-color: #6746f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium';
+    overflow: hidden;
+    max-height: 80px;
+}
+
+.navbar img {
+    width: 150px;        
+    height: 130px;         
+    object-fit: contain;
+}
+
+.navbar a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: sans-serif;
+}
+
+.navbar-brand a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 1rem;
+}
+
+.navbar-menu li a:hover {
+    background-color: #6746f8;
+    border-radius: 5px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color:#6746f8;
+    padding: 20px;
+}
+
+.form input[type="submit"] {
+    background-color: #6746f8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+}
+
+#holaquetal {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.form1 input[type="submit"] {
+    background-color: #6746f8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+}
+
+#edadypais {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.form2 input[type="submit"] {
+    background-color: #6746f8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+}
+
+#continenteypresupuesto {
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.form3 input[type="submit"] {
+    background-color: #6746f8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+}
+
+#tiempoylugaryrecorrido {
+    position: absolute;
+    top: 205%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#apiaplicada {
+    position: absolute;
+    top: 1%;
+}
+
+
+.tarjeta1 {
+        background-color: whitesmoke;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+}
+    
+.tarjeta1 h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+}
+    
+.tarjeta1 h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #555;
+}
+    
+.tarjeta1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+}
+    
+.tarjeta1 p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #333;
+}
+    
+.tarjeta1 input[type="submit"] {
+        background-color: #6746f8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+}
+    
+.tarjeta1 input[type="submit"]:hover {
+        background-color: #6746f8;
+}
+
+.tarjeta2 {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta2 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.tarjeta2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tarjeta2 input[type="submit"] {
+    background-color: #6746f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta2 input[type="submit"]:hover {
+    background-color: #6746f8                                                                               ;
+}
+
+.tarjeta3 {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta3 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.tarjeta3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta3 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tarjeta3 input[type="submit"] {
+    background-color: #6746f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta3 input[type="submit"]:hover {
+    background-color: #6746f8                                                                               ;
+}
+
+.tarjeta4 {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta4 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.tarjeta4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta4 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tarjeta4 input[type="submit"] {
+    background-color: #6746f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta4 input[type="submit"]:hover {
+    background-color: #6746f8                                                                               ;
+}
+
+.tarjeta5 {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta5 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.tarjeta5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta5 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tarjeta5 input[type="submit"] {
+    background-color: #6746f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta5 input[type="submit"]:hover {
+    background-color: #6746f8                                                                               ;
+}
+
+.tarjeta6 {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta6 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.tarjeta6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta6 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tarjeta6 input[type="submit"] {
+    background-color: #6746f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta6 input[type="submit"]:hover {
+    background-color: #6746f8                                                                               ;
+}
+
+.formcontacto {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;                                         
+}
+
+.tituloform {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: #524b4b;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #6746f8;
+    outline: none;
+}
+
+.form-text {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #555;
+}
+
+.botoncontacto {
+    background-color: #6746f8;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.botoncontacto:hover {
+    background-color: #5531d4;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deseo Viajes</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <nav class="navbar">
+        <a href="../index.html" class="navbar-brand">
+            <img src="../images/Deseo_viajes-removebg-preview.png" alt="logodeseo">
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./destinos.html">Destinos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="formcontacto">
+        <form class="mejorform">
+                <div class="form-group">
+                    <legend class="tituloform" for="tituloform">Ingrese sus datos y le enviaremos la información vía email</legend>
+                </div>
+                <div class="form-group">
+                    <legend for="ingresarMail">Email</legend>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar email" autocomplete="off">
+                    <small id="emailHelp" class="form-text">Nunca vamos a compartir tu mail con nadie</small>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="avisarnovedades">
+                    <legend class="form-check-label" for="avisarnovedades">Recibir información sobre mi viaje</legend>
+                </div>
+                <button type="submit" class="botoncontacto">Enviar información de mi viaje</button>
+        </form>
+    </div>
+    <script src="pages.js"></script>
+</body>
+</html>
